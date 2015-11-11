@@ -1,0 +1,34 @@
+* = can extract from string
+# = extract + has error checking
+
+If and Where are covered by LogicExpression
+
+*CANCEL name FROM sender TO target;
+*CREATE InvalidTimeError FROM Error;
+*DELETE instance;
+*ELSE
+*END FOR
+*END IF
+*FOR instance IN instanceSet DO
+*GENERATE event+params TO target;
+*GENERATE event+params TO target DELAY x;
+*GENERATE event+params TO class CREATOR;
+*GENERATE event+params TO class CREATOR DELAY x;
+*HUGE = 15000;
+*IF EMPTY INSTANCESET THEN
+*IF NOT EMPTY INSTANCESET THEN
+*IF logic THEN
+*RECLASSIFY InvalidTimeError TO Error;
+*RELATE Instance1 TO Instance2 ACROSS Relation
+*RELATE Instance1 TO Instance2 ACROSS Relation."verb phrase"
+*RELATE Instance1 TO Instance2 ACROSS Relation CREATING Instance3
+*RELATE Instance1 TO Instance2 ACROSS Relation."verb phrase" CREATING Instance3
+*RETURN
+*SELECT (ANY|MANY) Books RELATED BY self->R1->R2."verb phrase"
+*SELECT (ANY|MANY) Books RELATED BY self->R1->R2."verb phrase" WHERE logic
+*SELECT (ANY|MANY) Reports FROM INSTANCES OF GeneralReports
+*SELECT (ANY|MANY) Reports FROM INSTANCES OF GeneralReports WHERE selected.date < "20090406" and selected.income < rcvd_event.income;
+*SELECT ONE Error THAT RELATES Attribute TO Instance ACROSS R1
+*SELECT ONE Error THAT RELATES Attribute TO Instance ACROSS R1."verb phrase"
+*UNRELATE INSTANCE#1 FROM INSTANCE#2 ACROSS RELATION
+*UNRELATE INSTANCE#1 FROM INSTANCE#2 ACROSS RELATION."verb phrase"
