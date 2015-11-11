@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'hello.HelloWorld'
+version = '1.0'
+
+
+repositories{
+    mavenCentral()
+}
+
+
+dependencies {
+    compile "org.simpleframework:simple-xml:2.7"
+    testCompile "junit:junit:4.11", "org.simpleframework:simple-xml:2.7"
+}
+
+
+test {
+    afterTest { desc, result -> 
+        println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
