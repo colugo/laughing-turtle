@@ -15,9 +15,10 @@ dependencies {
     testCompile "junit:junit:4.11", "org.simpleframework:simple-xml:2.7"
 }
 
-
+/*
 test {
     afterTest { desc, result -> 
         println "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
     }
 }
+*/
