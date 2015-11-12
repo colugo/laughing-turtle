@@ -11,4 +11,6 @@ before_deploy:
     cp build/libs/avii-0.1.0.jar website/lib/
     ls website/lib 
 
+deploy: echo "deploy"
+
 after_success: gradle test
