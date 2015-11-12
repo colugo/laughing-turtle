@@ -1,0 +1,11 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /getClassDiagram				controllers.Application.getClassDiagram(projectId: String)
+POST    /saveClassDiagramActions		controllers.Application.saveClassDiagramActions(projectId: String)
+GET		/newDomain						controllers.Application.newDomain(domainName: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

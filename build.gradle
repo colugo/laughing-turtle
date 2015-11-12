@@ -15,6 +15,11 @@ dependencies {
     testCompile "junit:junit:4.11", "org.simpleframework:simple-xml:2.7"
 }
 
+jar {
+    baseName = 'avii'
+    version =  '0.1.0'
+}
+
 /*
 test {
     afterTest { desc, result -> 

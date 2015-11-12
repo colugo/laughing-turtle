@@ -1,0 +1,2265 @@
+<editorCommandHistory _domainName="testDomain" _createdTimestamp="2013-03-20 09:40:29.218 EST">
+   <_commands>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:40:46.609 EST" _className="Class_C99Py25z6N" _classId="C99Py25z6N"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:40:46.609 EST" _classId="C99Py25z6N" _newClassName="ClassA"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:40:46.609 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations/>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:41:21.953 EST" _className="Class_Lizzv9906y" _classId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:41:21.953 EST" _classId="Lizzv9906y" _newClassName="ClassB"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddRelationBetweenClasses" _createdTimestamp="2013-03-20 09:41:21.953 EST" _classAId="Lizzv9906y" _classBId="C99Py25z6N" _relationId="mayOmPVPev"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameRelation" _createdTimestamp="2013-03-20 09:41:21.953 EST" _relationId="mayOmPVPev" _newName="R1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:41:21.953 EST" _relationId="mayOmPVPev" _classAId="Lizzv9906y" _verbA="has" _cardinalityA="0..*" _classBId="C99Py25z6N" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:41:21.953 EST" _relationId="mayOmPVPev" _classAId="Lizzv9906y" _verbA="has" _cardinalityA="0..*" _classBId="C99Py25z6N" _verbB="is" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:41:21.953 EST" _relationId="mayOmPVPev" _classAId="Lizzv9906y" _verbA="has" _cardinalityA="0..1" _classBId="C99Py25z6N" _verbB="is" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:41:21.953 EST" _relationId="mayOmPVPev" _classAId="Lizzv9906y" _verbA="has" _cardinalityA="0..1" _classBId="C99Py25z6N" _verbB="is" _cardinalityB="1..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:41:21.953 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="6" verbAOffsetY="-19" verbBOffsetX="-22" verbBOffsetY="26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:41:35.453 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="-29" verbAOffsetY="15" verbBOffsetX="-31" verbBOffsetY="16"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:41:49.15 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="-29" verbAOffsetY="15" verbBOffsetX="-31" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:42:30.563 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="-29" verbAOffsetY="15" verbBOffsetX="-31" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:42:35.735 EST" _className="Class_BWhSumDezC" _classId="BWhSumDezC"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:42:35.735 EST" _className="Class_zUkgXl3zqv" _classId="zUkgXl3zqv"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:42:35.735 EST" _className="Class_qqxWkw6WaW" _classId="qqxWkw6WaW"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:42:35.735 EST" _className="Class_oUZDw4cSY6" _classId="oUZDw4cSY6"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:42:35.735 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="BWhSumDezC" x="48.0" y="151.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="zUkgXl3zqv" x="618.0" y="66.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="qqxWkw6WaW" x="476.0" y="80.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="oUZDw4cSY6" x="189.0" y="87.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="-29" verbAOffsetY="15" verbBOffsetX="-31" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="BWhSumDezC" _newClassName="D"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="oUZDw4cSY6" _newClassName="E"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="qqxWkw6WaW" _newClassName="F"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="zUkgXl3zqv" _newClassName="G"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="oUZDw4cSY6" _superClassId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="BWhSumDezC" _superClassId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="qqxWkw6WaW" _superClassId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:43:38.313 EST" _classId="zUkgXl3zqv" _superClassId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:43:38.313 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="C99Py25z6N" x="55.0" y="36.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Lizzv9906y" x="340.0" y="103.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="BWhSumDezC" x="289.0" y="242.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="zUkgXl3zqv" x="529.0" y="242.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="qqxWkw6WaW" x="415.0" y="243.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="oUZDw4cSY6" x="162.0" y="242.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="mayOmPVPev" endAIndex="4" endBIndex="4" verbAOffsetX="-29" verbAOffsetY="15" verbBOffsetX="-31" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="C99Py25z6N"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="Lizzv9906y"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="BWhSumDezC"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="qqxWkw6WaW"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="oUZDw4cSY6"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-20 09:45:37.313 EST" _classId="zUkgXl3zqv"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:45:37.313 EST">
+         <_coordinatesHelper>
+            <classes/>
+            <relations/>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:46:21.782 EST" _className="Class_VthhcjB6wY" _classId="VthhcjB6wY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:46:21.782 EST" _classId="VthhcjB6wY" _newClassName="Party"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:46:21.782 EST" _classId="VthhcjB6wY" _attributeUUID="BAGyaQTMwd"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:46:21.782 EST" _classId="VthhcjB6wY" _attributeUUID="drUsuthx5i"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:46:21.782 EST" _classId="VthhcjB6wY" _attributeUUID="dtErJlB3sI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:46:21.782 EST" _classId="VthhcjB6wY" _attributeUUID="HOXz7RRHIZ"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:46:21.782 EST" _newAttributeName="TypeCode" _attributeId="BAGyaQTMwd" _classId="VthhcjB6wY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:46:21.782 EST" _newAttributeName="SupressionIndicator" _attributeId="drUsuthx5i" _classId="VthhcjB6wY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeAttributeDatatype" _createdTimestamp="2013-03-20 09:46:21.797 EST" _attributeId="drUsuthx5i" _classId="VthhcjB6wY" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.BooleanEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:46:21.797 EST" _newAttributeName="ANZICCode" _attributeId="dtErJlB3sI" _classId="VthhcjB6wY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:46:21.797 EST" _newAttributeName="APRAIndicator" _attributeId="HOXz7RRHIZ" _classId="VthhcjB6wY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeAttributeDatatype" _createdTimestamp="2013-03-20 09:46:21.797 EST" _attributeId="HOXz7RRHIZ" _classId="VthhcjB6wY" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.BooleanEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:46:21.797 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations/>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:47:15.485 EST" _className="Class_Sz8ZCxPeay" _classId="Sz8ZCxPeay"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:47:15.485 EST" _classId="Sz8ZCxPeay" _newClassName="Identifier"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:47:15.485 EST" _classId="Sz8ZCxPeay" _attributeUUID="CcGbsrPrfT"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:47:15.485 EST" _classId="Sz8ZCxPeay" _attributeUUID="uw41J29h3J"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:47:15.485 EST" _classId="Sz8ZCxPeay" _attributeUUID="OJoiiQ168e"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:47:15.485 EST" _newAttributeName="Type" _attributeId="CcGbsrPrfT" _classId="Sz8ZCxPeay"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:47:15.485 EST" _newAttributeName="Value" _attributeId="uw41J29h3J" _classId="Sz8ZCxPeay"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:47:15.485 EST" _newAttributeName="Valid" _attributeId="OJoiiQ168e" _classId="Sz8ZCxPeay"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeAttributeDatatype" _createdTimestamp="2013-03-20 09:47:15.485 EST" _attributeId="OJoiiQ168e" _classId="Sz8ZCxPeay" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.BooleanEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddRelationBetweenClasses" _createdTimestamp="2013-03-20 09:47:15.485 EST" _classAId="VthhcjB6wY" _classBId="Sz8ZCxPeay" _relationId="vXT0fRTMJQ"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _newName="R1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="0..*" _classBId="Sz8ZCxPeay" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="1..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="1..1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="0..1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:47:15.485 EST" _relationId="vXT0fRTMJQ" _classAId="VthhcjB6wY" _verbA="is identified by" _cardinalityA="1..*" _classBId="Sz8ZCxPeay" _verbB="identifies" _cardinalityB="1..1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:47:15.485 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="583.0" y="58.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="0" verbAOffsetY="0" verbBOffsetX="0" verbBOffsetY="0"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:49:28.188 EST" _className="Class_iKrRxEcs7d" _classId="iKrRxEcs7d"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="iKrRxEcs7d" _newClassName="Name"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:49:28.188 EST" _className="Class_Q7shlA0pPR" _classId="Q7shlA0pPR"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="Q7shlA0pPR" _newClassName="CodedName"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="iKrRxEcs7d" _attributeUUID="nuIrS0N1gZ"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="iKrRxEcs7d" _attributeUUID="BGiu5Wz4GN"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:49:28.188 EST" _newAttributeName="FullName" _attributeId="nuIrS0N1gZ" _classId="iKrRxEcs7d"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:49:28.188 EST" _newAttributeName="StartDate" _attributeId="BGiu5Wz4GN" _classId="iKrRxEcs7d"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="Q7shlA0pPR" _attributeUUID="iCd8GfLIAz"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:49:28.188 EST" _newAttributeName="TypeCode" _attributeId="iCd8GfLIAz" _classId="Q7shlA0pPR"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:49:28.188 EST" _className="Class_m2OoEsmuEH" _classId="m2OoEsmuEH"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="m2OoEsmuEH" _newClassName="PartyName"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="m2OoEsmuEH" _attributeUUID="qzTEM2Dv5S"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:49:28.188 EST" _newAttributeName="ABN" _attributeId="qzTEM2Dv5S" _classId="m2OoEsmuEH"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeAttributeDatatype" _createdTimestamp="2013-03-20 09:49:28.188 EST" _attributeId="qzTEM2Dv5S" _classId="m2OoEsmuEH" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.IntegerEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="m2OoEsmuEH" _superClassId="iKrRxEcs7d"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="Q7shlA0pPR" _superClassId="iKrRxEcs7d"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:49:28.188 EST" _className="Class_wIIwNDEBQN" _classId="wIIwNDEBQN"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="wIIwNDEBQN" _newClassName="Previous"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddAttributeToClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="wIIwNDEBQN" _attributeUUID="cQ2GoVEqVU"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameAttribute" _createdTimestamp="2013-03-20 09:49:28.188 EST" _newAttributeName="EndDate" _attributeId="cQ2GoVEqVU" _classId="wIIwNDEBQN"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 09:49:28.188 EST" _className="Class_h73FqL3KIF" _classId="h73FqL3KIF"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="h73FqL3KIF" _newClassName="Current"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="wIIwNDEBQN" _superClassId="m2OoEsmuEH"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeSuperClass" _createdTimestamp="2013-03-20 09:49:28.188 EST" _classId="h73FqL3KIF" _superClassId="m2OoEsmuEH"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:49:28.188 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="246.0" y="404.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="254.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-36" verbBOffsetY="15"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddRelationBetweenClasses" _createdTimestamp="2013-03-20 09:52:50.704 EST" _classAId="h73FqL3KIF" _classBId="VthhcjB6wY" _relationId="TKe8pki3tW"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _newName="R2"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="0..*" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="1..*" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="0..*" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="has current name" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="TKe8pki3tW" _classAId="h73FqL3KIF" _verbA="is current name for" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="has current name" _cardinalityB="1..1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddRelationBetweenClasses" _createdTimestamp="2013-03-20 09:52:50.704 EST" _classAId="wIIwNDEBQN" _classBId="VthhcjB6wY" _relationId="ZPXzZUabzf"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="ZPXzZUabzf" _newName="R3"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="ZPXzZUabzf" _classAId="wIIwNDEBQN" _verbA="name for" _cardinalityA="0..*" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="ZPXzZUabzf" _classAId="wIIwNDEBQN" _verbA="name for" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:52:50.704 EST" _relationId="ZPXzZUabzf" _classAId="wIIwNDEBQN" _verbA="name for" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="was called" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:52:50.704 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="247.0" y="393.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="249.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-36" verbBOffsetY="15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="6" verbAOffsetY="-44" verbBOffsetX="-43" verbBOffsetY="-13"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddRelationBetweenClasses" _createdTimestamp="2013-03-20 09:53:53.422 EST" _classAId="Q7shlA0pPR" _classBId="VthhcjB6wY" _relationId="L9Is8fmirq"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameRelation" _createdTimestamp="2013-03-20 09:53:53.422 EST" _relationId="L9Is8fmirq" _newName="R4"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:53:53.422 EST" _relationId="L9Is8fmirq" _classAId="Q7shlA0pPR" _verbA="names" _cardinalityA="0..*" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:53:53.422 EST" _relationId="L9Is8fmirq" _classAId="Q7shlA0pPR" _verbA="names" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="follows" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeRelation" _createdTimestamp="2013-03-20 09:53:53.422 EST" _relationId="L9Is8fmirq" _classAId="Q7shlA0pPR" _verbA="names" _cardinalityA="1..1" _classBId="VthhcjB6wY" _verbB="is known by" _cardinalityB="0..*"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:53:53.422 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="247.0" y="393.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="249.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-36" verbBOffsetY="15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="6" verbAOffsetY="-44" verbBOffsetX="-43" verbBOffsetY="-13"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="0" verbBOffsetX="0" verbBOffsetY="0"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-20 09:59:19.63 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-20 10:07:17.657 EST" _className="Class_evYiRj14Ev" _classId="evYiRj14Ev"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-20 10:07:17.657 EST" _classId="evYiRj14Ev" _newClassName="dummy"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-21 08:48:25.734 EST" _classId="evYiRj14Ev"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 08:48:25.734 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddClassToDomain" _createdTimestamp="2013-03-21 10:28:59.343 EST" _className="Class_iQAOxuEj7A" _classId="iQAOxuEj7A"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameClass" _createdTimestamp="2013-03-21 10:28:59.343 EST" _classId="iQAOxuEj7A" _newClassName="Dummy"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 10:28:59.343 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iQAOxuEj7A" x="774.0" y="144.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteClass" _createdTimestamp="2013-03-21 10:29:17.484 EST" _classId="iQAOxuEj7A"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 10:29:17.484 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateToClass" _createdTimestamp="2013-03-21 15:46:28.671 EST" _classId="Sz8ZCxPeay" _newStateId="HcQl1P27ny"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 15:46:28.671 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 16:05:18.546 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-21 16:07:05.843 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:25:35.15 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:30:40.312 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:39:02.593 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:40:36.843 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:42:01.609 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:42:46.31 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 08:45:20.859 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateToClass" _createdTimestamp="2013-03-22 12:59:55.656 EST" _classId="Sz8ZCxPeay" _newStateId="Lv0xvcGzCZ"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-22 12:59:55.656 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="156.0" y="174.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="257.0" y="395.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="263.0" y="276.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="0" verbAOffsetY="-16" verbBOffsetX="-48" verbBOffsetY="-22"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="-38" verbAOffsetY="20" verbBOffsetX="-39" verbBOffsetY="-15"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-23 10:22:56.617 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="156.0" y="174.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameState" _createdTimestamp="2013-03-25 14:39:50.234 EST" _classId="Sz8ZCxPeay" _newStateName="Ordering new books" _stateId="HcQl1P27ny"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-25 14:39:50.234 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="156.0" y="174.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameState" _createdTimestamp="2013-03-25 14:41:38.593 EST" _classId="Sz8ZCxPeay" _newStateName="Out of books" _stateId="Lv0xvcGzCZ"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-25 14:41:38.593 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="156.0" y="174.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-03-25 14:41:51.359 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="148.0" y="154.0"/>
+                  </states>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateTransition" _createdTimestamp="2013-04-03 14:44:27.546 EST" _classId="Sz8ZCxPeay" _fromStateId="Lv0xvcGzCZ" _toStateId="HcQl1P27ny" _instanceId="IrMw7ODafY"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-03 14:44:27.546 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="148.0" y="154.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="4" toIndex="1" fromDragX="40" fromDragY="0" toDragX="0" toDragY="-40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-03 14:55:53.265 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="10.0" y="50.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="303.0" y="151.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="10" toIndex="4" fromDragX="-43" fromDragY="-113" toDragX="26" toDragY="98"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-03 15:09:26.109 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="108.0" y="82.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="388.0" y="251.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="4" fromDragX="23" fromDragY="-105" toDragX="283" toDragY="-31"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateToClass" _createdTimestamp="2013-04-05 09:08:41.2 EST" _classId="Sz8ZCxPeay" _newStateId="Vuhxiry1ik"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameState" _createdTimestamp="2013-04-05 09:08:41.2 EST" _classId="Sz8ZCxPeay" _newStateName="Temp" _stateId="Vuhxiry1ik"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-05 09:08:41.2 EST" _classId="Sz8ZCxPeay" _fromStateId="Vuhxiry1ik" _toStateId="HcQl1P27ny" _instanceId="IrMw7ODafY" _specId="DefaultEventSpecification"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-05 09:08:41.2 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="108.0" y="82.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="388.0" y="251.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="128.0" y="284.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="4" fromDragX="88" fromDragY="-24" toDragX="283" toDragY="-31"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-05 09:09:04.518 EST" _classId="Sz8ZCxPeay" _fromStateId="Vuhxiry1ik" _toStateId="Lv0xvcGzCZ" _instanceId="IrMw7ODafY" _specId="DefaultEventSpecification"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-05 09:09:04.518 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="108.0" y="82.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="388.0" y="251.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="128.0" y="284.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="89" fromDragY="-43" toDragX="-4" toDragY="-118"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateTransition" _createdTimestamp="2013-04-05 09:18:24.924 EST" _classId="Sz8ZCxPeay" _fromStateId="Lv0xvcGzCZ" _toStateId="HcQl1P27ny" _instanceId="wTrOypBru1"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddStateTransition" _createdTimestamp="2013-04-05 09:18:24.924 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-05 09:18:24.924 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_CreateEventSpecification" _createdTimestamp="2013-04-05 15:37:18.252 EST" _classId="Sz8ZCxPeay" _newSpecId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-05 15:37:18.252 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-05 15:37:18.252 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-08 09:35:44.596 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz" _specId="DefaultEventSpecification"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-08 09:35:44.596 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-08 09:35:52.393 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-08 09:35:52.393 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-08 15:18:40.533 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz" _specId="DefaultEventSpecification"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-08 15:18:40.533 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-08 15:18:51.65 EST" _classId="Sz8ZCxPeay" _fromStateId="HcQl1P27ny" _toStateId="Vuhxiry1ik" _instanceId="YVvNgNZCkz" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-08 15:18:51.65 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameEventSpecification" _createdTimestamp="2013-04-09 08:17:44.33 EST" _classId="Sz8ZCxPeay" _newSpecName="Bob" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 08:17:44.33 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 08:59:17.768 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddEventParam" _createdTimestamp="2013-04-09 09:24:02.455 EST" _classId="Sz8ZCxPeay" _specId="DefaultEventSpecification" _paramId="w2fjGQO8pL"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 09:24:02.455 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameEventSpecificationParam" _createdTimestamp="2013-04-09 10:12:19.549 EST" _classId="Sz8ZCxPeay" _newParamName="ISBN" _specId="DefaultEventSpecification" _paramId="w2fjGQO8pL"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 10:12:19.549 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteEventSpecificationParam" _createdTimestamp="2013-04-09 11:52:21.565 EST" _classId="Sz8ZCxPeay" _specId="DefaultEventSpecification" _paramId="w2fjGQO8pL"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 11:52:21.565 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddEventParam" _createdTimestamp="2013-04-09 12:15:49.627 EST" _classId="Sz8ZCxPeay" _specId="dyOkzDWINI" _paramId="VMhVfEvQTq"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameEventSpecificationParam" _createdTimestamp="2013-04-09 12:15:49.627 EST" _classId="Sz8ZCxPeay" _newParamName="QTY" _specId="dyOkzDWINI" _paramId="VMhVfEvQTq"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 12:15:49.627 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeEventSpecificationParamType" _createdTimestamp="2013-04-09 12:24:13.549 EST" _classId="Sz8ZCxPeay" _specId="dyOkzDWINI" _paramId="VMhVfEvQTq" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.IntegerEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 12:24:13.549 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_CreateEventSpecification" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _newSpecId="MfHX4nyA3P"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _fromStateId="Vuhxiry1ik" _toStateId="Lv0xvcGzCZ" _instanceId="IrMw7ODafY" _specId="MfHX4nyA3P"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameEventSpecification" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _newSpecName="RunOutOfBooks" _specId="MfHX4nyA3P"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_AddEventParam" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _specId="MfHX4nyA3P" _paramId="rz8nvRTfl6"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_RenameEventSpecificationParam" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _newParamName="HaveBeenReordered" _specId="MfHX4nyA3P" _paramId="rz8nvRTfl6"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeEventSpecificationParamType" _createdTimestamp="2013-04-09 12:28:54.80 EST" _classId="Sz8ZCxPeay" _specId="MfHX4nyA3P" _paramId="rz8nvRTfl6" _EntityDatatypeClassName="avii.editor.metamodel.entities.datatypes.BooleanEntityDatatype"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 12:28:54.80 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-09 14:37:47.861 EST" _classId="Sz8ZCxPeay" _fromStateId="Vuhxiry1ik" _toStateId="Lv0xvcGzCZ" _instanceId="IrMw7ODafY" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 14:37:47.861 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_DeleteEventSpecification" _createdTimestamp="2013-04-09 14:37:58.440 EST" _classId="Sz8ZCxPeay" _specId="dyOkzDWINI"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-09 14:37:58.455 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeStateTransition" _createdTimestamp="2013-04-10 08:58:51.643 EST" _classId="Sz8ZCxPeay" _fromStateId="Vuhxiry1ik" _toStateId="Lv0xvcGzCZ" _instanceId="IrMw7ODafY" _specId="MfHX4nyA3P"/>
+      <baseEditorCommand class="main.java.avii.editor.command.EditorCommand_ChangeClassDiagramCoordinates" _createdTimestamp="2013-04-10 08:58:51.643 EST">
+         <_coordinatesHelper>
+            <classes>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="VthhcjB6wY" x="49.0" y="53.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Sz8ZCxPeay" x="592.0" y="62.0" superClassTriangleIndex="7">
+                  <states>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="HcQl1P27ny" x="272.0" y="287.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Lv0xvcGzCZ" x="488.0" y="122.0"/>
+                     <jsonClassDiagramCoordinatesHelperEntityState uuid="Vuhxiry1ik" x="73.0" y="118.0"/>
+                  </states>
+                  <instances>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="wTrOypBru1" fromIndex="7" toIndex="4" fromDragX="6" fromDragY="95" toDragX="40" toDragY="0"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="YVvNgNZCkz" fromIndex="10" toIndex="7" fromDragX="-88" fromDragY="4" toDragX="0" toDragY="40"/>
+                     <jsonClassDiagramCoordinatesHelperEventInstance uuid="IrMw7ODafY" fromIndex="1" toIndex="1" fromDragX="4" fromDragY="-110" toDragX="-3" toDragY="-128"/>
+                  </instances>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="iKrRxEcs7d" x="728.0" y="370.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="Q7shlA0pPR" x="486.0" y="450.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="m2OoEsmuEH" x="488.0" y="320.0" superClassTriangleIndex="10">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="wIIwNDEBQN" x="216.0" y="401.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+               <jsonClassDiagramCoordinatesHelperEntityClass uuid="h73FqL3KIF" x="208.0" y="288.0" superClassTriangleIndex="7">
+                  <states/>
+                  <instances/>
+               </jsonClassDiagramCoordinatesHelperEntityClass>
+            </classes>
+            <relations>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="L9Is8fmirq" endAIndex="8" endBIndex="8" verbAOffsetX="-45" verbAOffsetY="18" verbBOffsetX="1" verbBOffsetY="-26"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="TKe8pki3tW" endAIndex="1" endBIndex="5" verbAOffsetX="3" verbAOffsetY="15" verbBOffsetX="3" verbBOffsetY="12"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="ZPXzZUabzf" endAIndex="10" endBIndex="6" verbAOffsetX="11" verbAOffsetY="-29" verbBOffsetX="2" verbBOffsetY="-21"/>
+               <jsonClassDiagramCoordinatesHelperEntityRelation uuid="vXT0fRTMJQ" endAIndex="4" endBIndex="10" verbAOffsetX="-35" verbAOffsetY="-21" verbBOffsetX="-60" verbBOffsetY="17"/>
+            </relations>
+         </_coordinatesHelper>
+      </baseEditorCommand>
+   </_commands>
+   <_uuid class="implementation.ConcreteUUIDIdentifier" _uuid="big"/>
+</editorCommandHistory>

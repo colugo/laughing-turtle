@@ -1,0 +1,712 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="/assets/stylesheets/layout-default-latest.css" />
+	<link type="text/css" rel="stylesheet" href="/assets/stylesheets/main.css" />
+	<link type="text/css" rel="stylesheet" href="/assets/stylesheets/codemirror.css" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'/>
+	
+	<script type="text/javascript" src='/assets/javascripts/lib/knockout-2.2.0.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/lib/jquery-1.8.3.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/lib/jquery-ui.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/lib/jquery.layout-latest.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/lib/purl.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/ViewModel.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/ClassDiagram.Entities.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/ClassDiagram.Actions.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/StateDiagram.Entities.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/StateDiagram.Actions.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/util.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/lib/codemirror.js'></script>
+	<script type="text/javascript" src='/assets/javascripts/src/actionlanguage.js'></script>
+	<script type="text/javascript">
+
+	  
+	
+	
+$(window).load(function () {
+	var projectId = $.url().param('projectId');
+	window.vm = new ViewModel(projectId);
+	ko.applyBindings(window.vm);
+	window.vm.load();
+
+	$(window).on('beforeunload', function(){
+		var numberOfUnsavedActions = window.vm.actionList.actions().length;
+		if(numberOfUnsavedActions > 0 ){
+			return 'You have ' + numberOfUnsavedActions + ' unsaved changes';
+		};
+	});
+	
+	window.layout = $('#container').layout({
+				  north__resizable: false,
+				  north__closable:  false,
+				  north__spacing_open:    0, 
+				  north__spacing_closed: 0,
+				  east__spacing_open:    4, 
+				  east__spacing_closed: 4,
+				  south__spacing_open:    4, 
+				  south__spacing_closed: 0
+				});
+	layout.sizePane("east", "20%");
+	layout.sizePane("south", "40%");
+	layout.close("south");
+	
+	setupEvents();
+	
+	ko.bindingHandlers.codemirror = {
+			init: function(element, valueAccessor, allBindingsAccessor, viewModel) {
+		        var options = $.extend(valueAccessor(), {});
+		        var editor = CodeMirror.fromTextArea(element, options);
+		        element.editor = editor;
+		        editor.setValue(allBindingsAccessor().value());
+		        editor.refresh();
+		        editor.on("change",function(cm,cmChangeObject){
+		        	allBindingsAccessor().value(cm.getValue());
+		        });
+		        
+		        var wrapperElement = $(editor.getWrapperElement()); 
+
+		        ko.utils.domNodeDisposal.addDisposeCallback(element, function() {
+		            wrapperElement.remove();
+		        });
+		    }
+		};
+	
+});
+	
+function doubleClickToAddNewClass(event){
+	window.vm.newClassAction();
+	var newClassIndex = window.vm.domain.entityClasses().length -1;
+	var newClass = window.vm.domain.entityClasses()[newClassIndex];
+	newClass.x(event.pageX - (newClass.width() / 2) + $('#classDiagramPane').scrollLeft());
+	newClass.y(event.pageY - 50 + $('#classDiagramPane').scrollTop());
+	window.vm.modelSelection.select(newClass);
+	document.getSelection().removeAllRanges();
+};
+
+function doubleClickToAddNewState(event){
+	var theClass = window.vm.modelSelection.oneThingSelected();
+	window.vm.addStateAction(theClass);
+	var newStateIndex = theClass.stateMachine.states().length -1;
+	var newState = theClass.stateMachine.states()[newStateIndex];
+	var v = $('#classDiagramPane').width();
+	newState.x(event.pageX - $('#classDiagramPane').width());
+	newState.y(event.pageY - 50 + $('#stateDiagramPane').scrollTop());
+	//newState.x(event.pageX - (newState.width() / 2) + $('#stateDiagramPane').scrollLeft());
+	//window.vm.modelSelection.select(newClass);
+	//document.getSelection().removeAllRanges();
+};
+
+function clickToDeselectState(){
+	// state is selected, select the state.stateMachine.theClass instead
+	if(window.vm.modelSelection.typeOfOneThingSelected() == "EntityState" || window.vm.modelSelection.typeOfOneThingSelected() == "EventInstance"){
+		var theClass = window.vm.modelSelection.oneThingSelected().stateMachine.theClass;
+		window.vm.modelSelection.deselect();
+		window.vm.modelSelection.select(theClass);
+	}
+};
+
+function setupEvents(){
+	$('body').on('click', 'span#classDiagramPaneFiller', function() {
+		window.vm.modelSelection.deselect();
+	});
+	$('body').on('click', 'span#stateDiagramPaneFiller', function() {
+		clickToDeselectState();
+	});
+	
+	
+	$('body').on('dblclick', 'span#classDiagramPaneFiller', function(event) {
+		doubleClickToAddNewClass(event);
+	});
+	
+	$('body').on('dblclick', 'rect', function() {
+		if(util.hasClassSVG(this,'backdrop')){
+			doubleClickToAddNewClass(event);
+		}
+	});
+	
+	$('body').on('dblclick', 'rect', function() {
+		if(util.hasClassSVG(this,'smBackDrop')){
+			doubleClickToAddNewState(event);
+		}
+	});
+	
+	$('body').on('click', 'rect', function() {
+		if(util.hasClassSVG(this,'EntityClass')){
+			var classId = this.id;
+			var theClass = window.vm.domain.getClassWithUUID(classId);
+			if(! theClass.isSelected()){
+				window.vm.modelSelection.deselect();
+			}
+			window.vm.modelSelection.select(theClass);
+		}
+		if(util.hasClassSVG(this,'EntityState')){
+			var stateId = this.id;
+			var theState = window.vm.domain.getStateWithUUID(stateId);
+			if(! theState.isSelected()){
+				window.vm.modelSelection.deselect();
+			}
+			window.vm.modelSelection.select(theState);
+		}
+		if(util.hasClassSVG(this,'EventInstance')){
+			var instanceId = this.id;
+			var theEventInstance = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getInstanceWithUUID(instanceId);
+			if(! theEventInstance.isSelected()){
+				window.vm.modelSelection.deselect();
+			}
+			window.vm.modelSelection.select(theEventInstance);
+		}
+		if(util.hasClassSVG(this,'backdrop')){
+			window.vm.modelSelection.deselect();
+		}
+		if(util.hasClassSVG(this,'smBackDrop')){
+			clickToDeselectState();
+		}
+		
+		if(util.hasClassSVG(this,'EntityRelation')){
+			var relationId = this.id;
+			var theRelation = window.vm.domain.getRelationWithUUID(relationId);
+			if(!theRelation.isSelected()){
+				window.vm.modelSelection.deselect();
+			}
+			window.vm.modelSelection.select(theRelation);
+		}
+		
+	});
+	
+	$('body').on('mouseenter','rect',function() {
+		if(util.hasClassSVG(this,'EntityClass')
+		|| util.hasClassSVG(this,'EntityState')
+		|| util.hasClassSVG(this,'EventInstance')
+		|| util.hasClassSVG(this,'EntityRelationVerbA')
+		|| util.hasClassSVG(this,'EntityRelationVerbB')
+		){
+			var $this = $(this);
+			if(!$this.is(':data(draggable)')) {
+				$this.draggable();
+			}
+		}
+	});
+	
+	$('body').on('mouseenter','circle',function() {
+		if(util.hasClassSVG(this,'selectedRelationPointEndA')
+		|| util.hasClassSVG(this,'selectedRelationPointEndB')
+		|| util.hasClassSVG(this,'selectedSuperClassTriangleRelationPoint')
+		|| util.hasClassSVG(this,'eventInstanceDragPointFrom')
+		|| util.hasClassSVG(this,'eventInstanceDragPointTo')
+		|| util.hasClassSVG(this,'selectedEventFrom')
+		|| util.hasClassSVG(this,'selectedEventTo')
+		){
+			var $this = $(this);
+			if(!$this.is(':data(draggable)')) {
+				$this.draggable();
+			}
+		}
+	});
+	
+	$('body').on('mousedown', 'rect', function(event, ui) {
+		if(util.hasClassSVG(this,'EntityRelationVerbA')){
+			var relationId = this.id;
+			var theRelation = window.vm.domain.getRelationWithUUID(relationId);
+			if(theRelation.isSelected()){
+				var xBase = theRelation.endARP().offsetX();
+				var oldX = xBase + theRelation.verbAOffsetX();
+				var gapBetweenClientAndOldX = oldX - event.pageX;
+				theRelation.dragVerbAOffsetX = gapBetweenClientAndOldX;
+				
+				var yBase = theRelation.endARP().offsetY();
+				var oldY = yBase + theRelation.verbAOffsetY();
+				var gapBetweenClientAndOldY = oldY - event.pageY;
+				theRelation.dragVerbAOffsetY = gapBetweenClientAndOldY;
+			}
+		}
+		
+		if(util.hasClassSVG(this,'EntityRelationVerbB')){
+			var relationId = this.id;
+			var theRelation = window.vm.domain.getRelationWithUUID(relationId);
+			if(theRelation.isSelected()){
+				var xBase = theRelation.endBRP().offsetX();
+				var oldX = xBase + theRelation.verbBOffsetX();
+				var gapBetweenClientAndOldX = oldX - event.pageX;
+				theRelation.dragVerbBOffsetX = gapBetweenClientAndOldX;
+				
+				var yBase = theRelation.endBRP().offsetY();
+				var oldY = yBase + theRelation.verbBOffsetY();
+				var gapBetweenClientAndOldY = oldY - event.pageY;
+				theRelation.dragVerbBOffsetY = gapBetweenClientAndOldY;
+			}
+		}
+	});
+	
+	$('body').on('drag', 'rect', function(event, ui) {
+		if(util.hasClassSVG(this,'EntityClass')){
+			var classId = this.id;
+			var theClass = window.vm.domain.getClassWithUUID(classId);
+			if(theClass.isSelected()){
+				theClass.x(ui.position.left);
+				theClass.y(ui.position.top - $('#classDiagramPane').scrollTop());
+			}
+		}
+		
+		if(util.hasClassSVG(this,'EntityState')){
+			var stateId = this.id;
+			var theState = window.vm.domain.getStateWithUUID(stateId);
+			if(theState.isSelected()){
+				theState.x(ui.position.left);
+				theState.y(ui.position.top - $('#stateDiagramPane').scrollTop());
+			}
+		}
+		
+		if(util.hasClassSVG(this,'EntityRelationVerbA')){
+			var relationId = this.id;
+			var theRelation = window.vm.domain.getRelationWithUUID(relationId);
+			if(theRelation.isSelected()){
+				var xBase = theRelation.endARP().offsetX();
+				var newX = event.pageX - xBase;
+				var gapBetweenClientAndOldX = theRelation.dragVerbAOffsetX;
+				var updatedX = newX + gapBetweenClientAndOldX;
+				theRelation.verbAOffsetXChangeable(updatedX);
+				
+				var yBase = theRelation.endARP().offsetY();
+				var newY = event.pageY - yBase;
+				var gapBetweenClientAndOldY = theRelation.dragVerbAOffsetY;
+				var updatedY = newY + gapBetweenClientAndOldY;
+				theRelation.verbAOffsetYChangeable(updatedY);
+			}
+		}
+		if(util.hasClassSVG(this,'EntityRelationVerbB')){
+			var relationId = this.id;
+			var theRelation = window.vm.domain.getRelationWithUUID(relationId);
+			if(theRelation.isSelected()){
+				var xBase = theRelation.endBRP().offsetX();
+				var newX = event.pageX - xBase;
+				var gapBetweenClientAndOldX = theRelation.dragVerbBOffsetX;
+				var updatedX = newX + gapBetweenClientAndOldX;
+				theRelation.verbBOffsetXChangeable(updatedX);
+				
+				var yBase = theRelation.endBRP().offsetY();
+				var newY = event.pageY - yBase;
+				var gapBetweenClientAndOldY = theRelation.dragVerbBOffsetY;
+				var updatedY = newY + gapBetweenClientAndOldY;
+				theRelation.verbBOffsetYChangeable(updatedY);
+			}
+		}
+		
+		
+	});
+	
+	$('body').on('mousedown', 'circle', function(event, ui) {
+		if(util.hasClassSVG(this,'eventInstanceDragPointFrom')){
+			var instanceId = this.id;
+			var theEventInstance = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getInstanceWithUUID(instanceId);
+			
+			var xBase = theEventInstance.fromRelationPoint().x();
+			var oldX = theEventInstance.fromDragX();
+			var gapBetweenClientAndOldX = oldX - event.pageX;
+			theEventInstance.dragFromOffsetX = gapBetweenClientAndOldX;
+			
+			var yBase = theEventInstance.fromRelationPoint().y();
+			var oldY = theEventInstance.fromDragY();
+			var gapBetweenClientAndOldY = oldY - event.pageY;
+			theEventInstance.dragFromOffsetY = gapBetweenClientAndOldY;
+		}
+		
+		if(util.hasClassSVG(this,'eventInstanceDragPointTo')){
+			var instanceId = this.id;
+			var theEventInstance = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getInstanceWithUUID(instanceId);
+			
+			var xBase = theEventInstance.toRelationPoint().x();
+			var oldX = theEventInstance.toDragX();
+			var gapBetweenClientAndOldX = oldX - event.pageX;
+			theEventInstance.dragToOffsetX = gapBetweenClientAndOldX;
+			
+			var yBase = theEventInstance.toRelationPoint().y();
+			var oldY = theEventInstance.toDragY();
+			var gapBetweenClientAndOldY = oldY - event.pageY;
+			theEventInstance.dragToOffsetY = gapBetweenClientAndOldY;
+		}
+	});
+	
+	$('body').on('drag', 'circle', function(event, ui) {
+		if(util.hasClassSVG(this,'selectedRelationPointEndA')){
+			window.vm.draggingRelationEndPoints(true);
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(event.toElement,'selectedRelationPoint')){	
+					var rp = window.vm.domain.getRelationPointWithUUID(event.toElement.id);
+					if(rp != null){
+						var theRelation = window.vm.modelSelection.oneThingSelected();
+						if(theRelation.endA().uuid != rp.theClass.uuid){
+							window.vm.changeRelationAction(theRelation.uuid, rp.theClass.uuid, theRelation.verbA(), theRelation.cardinalityA(), theRelation.endB().uuid, theRelation.verbB(), theRelation.cardinalityB());
+						}
+						theRelation.relationPointIndexEndA(rp.index);
+					}
+				}
+			}
+		}
+		
+		if(util.hasClassSVG(this,'selectedRelationPointEndB')){
+			if(util.hasClassSVG(event.toElement,'selectedRelationPoint')){	
+				window.vm.draggingRelationEndPoints(true);
+				if(event.toElement != undefined){
+					var rp = window.vm.domain.getRelationPointWithUUID(event.toElement.id);
+					if(rp != null){
+						var theRelation = window.vm.modelSelection.oneThingSelected();
+						if(theRelation.endB().uuid != rp.theClass.uuid){
+							window.vm.changeRelationAction(theRelation.uuid, theRelation.endA().uuid, theRelation.verbA(), theRelation.cardinalityA(), rp.theClass.uuid, theRelation.verbB(), theRelation.cardinalityB());
+						}
+						theRelation.relationPointIndexEndB(rp.index);
+					}
+				}
+			}
+		}
+		
+		if(util.hasClassSVG(this,'selectedSuperClassTriangleRelationPoint')){
+			window.vm.draggingSuperClassEndPoints(true);
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(event.toElement,'selectedRelationPoint')){	
+					var rp = window.vm.domain.getRelationPointWithUUID(event.toElement.id);
+					if(rp != null){
+						var theClass = window.vm.modelSelection.oneThingSelected();
+						theClass.superClassTriangleIndex(rp.index);
+					}
+				}
+			}
+		}
+		
+		if(util.hasClassSVG(this,'selectedEventFrom')){
+			window.vm.draggingTransitionEndPoints(true);
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(event.toElement,'selectedTransitionPoint')){
+					var rp = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getRelationPointWithUUID(event.toElement.id);
+					if(rp != null){
+						var theInstance = window.vm.modelSelection.oneThingSelected();
+						if(theInstance.fromState().uuid != rp.theClass.uuid){
+							window.vm.changeStateTransitionAction(theInstance.uuid, rp.theClass.uuid, theInstance.toState().uuid, theInstance.specification().uuid);
+						}
+						theInstance.fromRelationPointIndex(rp.index);
+						theInstance.fromDragX(rp.offsetX() - rp.x());
+						theInstance.fromDragY(rp.offsetY() - rp.y());
+					}
+				}
+			}
+		}
+		
+		if(util.hasClassSVG(this,'selectedEventTo')){
+			window.vm.draggingTransitionEndPoints(true);
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(event.toElement,'selectedTransitionPoint')){
+					var rp = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getRelationPointWithUUID(event.toElement.id);
+					if(rp != null){
+						var theInstance = window.vm.modelSelection.oneThingSelected();
+						if(theInstance.toState().uuid != rp.theClass.uuid){
+							window.vm.changeStateTransitionAction(theInstance.uuid, theInstance.fromState().uuid, rp.theClass.uuid, theInstance.specification().uuid);
+						}
+						theInstance.toRelationPointIndex(rp.index);
+						theInstance.toDragX(rp.offsetX() - rp.x());
+						theInstance.toDragY(rp.offsetY() - rp.y());
+					}
+				}
+			}
+		}
+		
+		
+		if(util.hasClassSVG(this,'eventInstanceDragPointFrom')){
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(this,'eventInstanceDragPointFrom')){
+					var instanceId = this.id;
+					var theEventInstance = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getInstanceWithUUID(instanceId);
+					
+					var xBase = theEventInstance.fromRelationPoint().x();
+					var newX = event.pageX - xBase;
+					var gapBetweenClientAndOldX = theEventInstance.dragFromOffsetX;
+					var updatedX = newX + gapBetweenClientAndOldX;
+					theEventInstance.fromDragX(updatedX);
+					
+					var yBase = theEventInstance.fromRelationPoint().y();
+					var newY = event.pageY - yBase;
+					var gapBetweenClientAndOldY = theEventInstance.dragFromOffsetY;
+					var updatedY = newY + gapBetweenClientAndOldY;
+					theEventInstance.fromDragY(updatedY);
+				}
+			}
+		}
+		
+		if(util.hasClassSVG(this,'eventInstanceDragPointTo')){
+			if(event.toElement != undefined){
+				if(util.hasClassSVG(this,'eventInstanceDragPointTo')){
+					var instanceId = this.id;
+					var theEventInstance = window.vm.modelSelection.classWhenClasssOrStateSelected().stateMachine.getInstanceWithUUID(instanceId);
+					
+					var xBase = theEventInstance.toRelationPoint().x();
+					var newX = event.pageX - xBase;
+					var gapBetweenClientAndOldX = theEventInstance.dragToOffsetX;
+					var updatedX = newX + gapBetweenClientAndOldX;
+					theEventInstance.toDragX(updatedX);
+					
+					var yBase = theEventInstance.toRelationPoint().y();
+					var newY = event.pageY - yBase;
+					var gapBetweenClientAndOldY = theEventInstance.dragToOffsetY;
+					var updatedY = newY + gapBetweenClientAndOldY;
+					theEventInstance.toDragY(updatedY);
+				}
+			}
+		}
+	});
+	
+	$('body').on('dragstop', 'circle', function(event, ui) {
+			window.vm.draggingRelationEndPoints(false);
+			window.vm.draggingSuperClassEndPoints(false);
+			window.vm.draggingTransitionEndPoints(false);
+	});
+	
+};
+	</script>
+
+
+</head>
+<body>
+<div id="container">
+<div class="pane ui-layout-north gradient">
+<span id="logo">modeldev</span>
+</div>
+	<div id="stateDiagramPane" class="pane ui-layout-east">
+	<!-- ko if: modelSelection.isOneThingSelected() -->
+		<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityClass" || modelSelection.typeOfOneThingSelected() == "EntityState" || modelSelection.typeOfOneThingSelected() == "EventInstance" -->
+			<svg id="canvas" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position:absolute;left:0;top:0;font-family: sans-serif;" data-bind="attr:{width:modelSelection.classWhenClasssOrStateSelected().stateMachine.width(), height:modelSelection.classWhenClasssOrStateSelected().stateMachine.height()}">
+				<g transform="scale(1)">
+			
+				<rect class="smBackDrop" id="smBackDrop" x="0" y="0" style="fill:white;stroke:white" data-bind="attr:{width:width, height:height}"/>
+				
+				<!-- example of biezer curves
+				<line x1="100" y1="100" x2="50" y2="20" style="stroke: black;" shape-rendering="crispEdges"/>
+				<line x1="300" y1="120" x2="150" y2="60" style="stroke: black;" shape-rendering="crispEdges"/>
+				<path d="M 100 100 C 50 20, 150 60, 300 120" style="stroke: blue; fill: none;"/>
+				<circle cx="50" cy="20" r="2" fill="lightgrey" stroke="black"/>
+				<circle cx="150" cy="60" r="2" fill="lightgrey" stroke="black"/>
+				 -->
+				
+					<!-- ko foreach: modelSelection.classWhenClasssOrStateSelected().stateMachine.states() -->
+						
+						<rect rx="10" ry="10" data-bind="style:{fill:colour()}, attr:{x:x, y:y, width:width, height:height}"/>
+						<text font-size="12" data-bind="attr:{x:stateNameX, y:stateNameY}, text:name"/>
+						<line data-bind="attr:{x1:x, y1:stateNameY() + 7, x2:x()+width(),  y2:stateNameY() + 7}" style="stroke: black;" shape-rendering="crispEdges"/>
+						
+						<rect class="EntityState" rx="10" ry="10" data-bind="attr:{x:x,y:y,width:width,height:height,id:uuid}" style="fill-opacity: 0;"/>
+						
+						
+						<!-- ko foreach: relationPoints -->
+							<!--circle class="selectedRelationPoint" data-bind="attr:{cx:x, cy:y, r:5, id:uuid()}" fill="lightgrey" stroke="black"/-->
+						<!-- /ko -->
+					
+					<!-- /ko -->
+					<!-- ko foreach: modelSelection.classWhenClasssOrStateSelected().stateMachine.instances() -->
+						<path data-bind="attr:{d:path}, style:{fill:'none', stroke:isSelected()?backgroundColour:'#000000', strokeWidth:'2'}" />
+						<polyline data-bind="attr:{points:arrowHeadPath}, style:{stroke:isSelected()?backgroundColour:'#000000', fill:isSelected()?backgroundColour:'#000000', strokeWidth:'1'}"/>
+						
+						<rect data-bind="style:{fill:backgroundColour, stroke:backgroundColour}, attr:{x:displayTextBoxOrigin().x, y:displayTextBoxOrigin().y, width:displayTextDimensions().x, height:displayTextDimensions().y}" rx="5" ry="5"/>
+						<text font-size="12" data-bind="text:displayText, attr:{x:displayTextOrigin().x, y:displayTextOrigin().y}"/>
+						<rect class="EventInstance" data-bind="attr:{id:uuid, x:displayTextBoxOrigin().x, y:displayTextBoxOrigin().y, width:displayTextDimensions().x, height:displayTextDimensions().y}" rx="5" ry="5" style="fill-opacity: 0; stroke-opacity:0;"/>
+
+						<!-- ko if: isSelected() -->
+							<line data-bind="attr:{x1:fromRelationPoint().x, y1:fromRelationPoint().y, x2:fromDragX,  y2:fromDragY}" style="stroke: black;stroke-width:1.5; stroke-dasharray: 1, 2;"/>
+							<circle class="eventInstanceDragPointFrom" data-bind="attr:{cx:fromDragX, cy:fromDragY, r:5, id:uuid}" fill="lightgrey" stroke="black"/>
+							<line data-bind="attr:{x1:toRelationPoint().x, y1:toRelationPoint().y, x2:toDragX,  y2:toDragY}" style="stroke: black;stroke-width:1.5; stroke-dasharray: 1, 2;"/>
+							<circle class="eventInstanceDragPointTo" data-bind="attr:{cx:toDragX, cy:toDragY, r:5, id:uuid}" fill="lightgrey" stroke="black"/>
+						<!-- /ko -->
+						
+					<!-- /ko -->
+					
+					
+					<!-- ko if: modelSelection.typeOfOneThingSelected() == "EventInstance" -->
+						<circle class="selectedEventFrom" data-bind="attr:{cx:modelSelection.oneThingSelected().fromRelationPoint().x(), cy:modelSelection.oneThingSelected().fromRelationPoint().y(), r:5}" fill="red" stroke="black"/>
+						<circle class="selectedEventTo" data-bind="attr:{cx:modelSelection.oneThingSelected().toRelationPoint().x(), cy:modelSelection.oneThingSelected().toRelationPoint().y(), r:5}" fill="red" stroke="black"/>
+					<!-- /ko -->
+					
+			        <!-- ko if: draggingTransitionEndPoints -->
+					<!-- ko foreach:  modelSelection.classWhenClasssOrStateSelected().stateMachine.states -->
+						<!-- ko foreach: relationPoints -->
+							<circle class="selectedTransitionPoint" data-bind="attr:{cx:x, cy:y, r:5, id:uuid()}" fill="lightgrey" stroke="black"/>
+						<!-- /ko -->
+					<!-- /ko -->
+				<!-- /ko -->
+					
+				</g>
+			</svg>
+			<span id="stateDiagramPaneFiller" style="background:white;position:absolute;right:0px" data-bind="style:{left:modelSelection.classWhenClasssOrStateSelected().stateMachine.width() + 'px', height:modelSelection.classWhenClasssOrStateSelected().stateMachine.height() + 'px'}"></span>
+		
+			
+		<!-- /ko -->
+	<!-- /ko -->
+	</div>
+	<div id="classDiagramPane" class="pane ui-layout-center">
+		<span class="headerRight">
+		<a href="#" data-bind="click: saveActions, visible: actionList.actions().length == 0">Save layout</a><a href="#" data-bind="click: saveActions, visible: actionList.actions().length > 0"><span id="unsavedActions"><span data-bind="text:actionList.actions().length"></span>&nbsp;unsaved&nbsp;action<span data-bind="visible: actionList.actions().length > 1">s</span></span></a>&nbsp;&nbsp;<a href="#" data-bind="click: undoActions, visible: actionList.actions().length > 0"><span id="undoAction">undo&nbsp;<span data-bind="text:actionList.typeOfLastAction()"></span></span></a>&nbsp;
+		</span>
+		<svg id="canvas" version="1.1" xmlns="http://www.w3.org/2000/svg" style="position:absolute;left:0;top:0;font-family: sans-serif;" data-bind="attr:{width:width, height:height}">
+		<g transform="scale(1)">
+		
+		<rect class="backdrop" id="backdrop" x="0" y="0" style="fill:white;stroke:white" data-bind="attr:{width:width, height:height}"/>
+		
+		<!-- ko foreach: domain.entityRelations -->
+			<polyline
+		    style="stroke-linejoin: bevel; stroke-width:4; fill: none;"
+		    data-bind="attr:{points:points, stroke:colour}"/>
+			<!-- ko if: hasAssociation() -->
+				<line data-bind="attr:{x1:midPoint().x, y1:midPoint().y, x2:associationClass().midPoint().x, y2:associationClass().midPoint().y, stroke:associationColour}" style="stroke-dasharray: 10, 10; stroke-width: 3;"/>	
+			<!-- /ko -->
+			<rect data-bind="style:{fill:backgroundColour, stroke:backgroundColour}, attr:{x:relationNameBoxOrigin().x, y:relationNameBoxOrigin().y, width:relationNameDimensions().x, height:relationNameDimensions().y}" rx="5" ry="5"/>
+			<text font-size="12" data-bind="text:name, attr:{x:relationNameOrigin().x, y:relationNameOrigin().y}"/>
+			<rect class="EntityRelation" data-bind="attr:{id:uuid, x:relationNameBoxOrigin().x, y:relationNameBoxOrigin().y, width:relationNameDimensions().x, height:relationNameDimensions().y}" rx="5" ry="5" style="fill-opacity: 0; stroke-opacity:0;"/>
+
+			<text font-size="12" data-bind="text:verbA, attr:{x:verbAPosition().x, y:verbAPosition().y}"/>
+			<text font-size="12" data-bind="text:cardinalityA, attr:{x:cardinalityAPosition().x, y:cardinalityAPosition().y}"/>
+			<text font-size="12" data-bind="text:verbB, attr:{x:verbBPosition().x, y:verbBPosition().y}"/>
+			<text font-size="12" data-bind="text:cardinalityB, attr:{x:cardinalityBPosition().x, y:cardinalityBPosition().y}"/>
+			
+			<!-- ko if: isSelected() -->
+				<rect class="EntityRelationVerbA" style="fill:green; fill-opacity:0.25; stroke-opacity:0;" data-bind="attr:{x:endARP().verbBoxX(),y:endARP().verbBoxY(),width:verbMovementBoxWidth,height:verbMovementBoxHeight,id:uuid}" shape-rendering="crispEdges" rx="10" ry="10"/>
+				<rect class="EntityRelationVerbB" style="fill:green; fill-opacity:0.25; stroke-opacity:0;" data-bind="attr:{x:endBRP().verbBoxX(),y:endBRP().verbBoxY(),width:verbMovementBoxWidth,height:verbMovementBoxHeight,id:uuid}" shape-rendering="crispEdges" rx="10" ry="10"/>
+			<!-- /ko -->
+			
+        <!-- /ko -->
+		
+		<!-- ko foreach: domain.entityClasses -->
+			<!-- ko if: hasSuperClass() -->
+				<line data-bind="attr:{x1:midPoint().x, y1:midPoint().y, x2:subClassMidPoint().x, y2:subClassMidPoint().y}" style="stroke: black;stroke-width:2;" shape-rendering="crispEdges"/>
+				<line data-bind="attr:{x1:subClassMidPoint().x, y1:subClassMidPoint().y, x2:getSuperClass().superClassEndLinePoint().x, y2:getSuperClass().superClassEndLinePoint().y}" style="stroke: black;stroke-width:2;" shape-rendering="crispEdges"/>
+			<!-- /ko -->
+		<!-- /ko -->
+		<!-- ko foreach: domain.entityClasses -->
+			<rect data-bind="style:{fill:colour()}, attr:{x:x,y:y,width:width,height:height}" shape-rendering="crispEdges"/>
+			<text font-size="12" data-bind="attr:{x:classNameX, y:classNameY}, text:name"/>
+			<line data-bind="attr:{x1:x, x2:x()+width(), y1:classNameY() + 7, y2:classNameY() + 7}" style="stroke: black;" shape-rendering="crispEdges"/>
+			
+			<!-- ko foreach: attributes -->
+				<text font-size="12" data-bind="attr:{x:$parent.x() + 2, y:$parent.attributesY() + ($index() * $parent.textHeight())}, text:nameAndType"/>
+			<!--  /ko -->
+			
+			<rect class="EntityClass" data-bind="attr:{x:x,y:y,width:width,height:height,id:uuid}" style="fill-opacity: 0;" shape-rendering="crispEdges"/>
+				
+			<!-- ko if: hasSubClasses() -->
+			<line data-bind="attr:{x1:superClassTriangleRelationPoint().x(), y1:superClassTriangleRelationPoint().y(), x2:superClassEndLinePoint().x, y2:superClassEndLinePoint().y}" style="stroke: black;stroke-width:2;" shape-rendering="crispEdges"/> 
+				<polyline
+				style="stroke-linejoin: bevel; stroke-width:2; fill: white; stroke:black;"
+					data-bind="attr:{points:superClassTrianglePoints}"/>
+			<!-- /ko -->
+			
+        <!-- /ko -->
+        
+        <!-- ko if: draggingRelationEndPoints -->
+			<!-- ko foreach: domain.entityClasses -->
+				<!-- ko foreach: relationPoints -->
+					<circle class="selectedRelationPoint" data-bind="attr:{cx:x, cy:y, r:5, id:uuid()}" fill="lightgrey" stroke="black"/>
+				<!-- /ko -->
+			<!-- /ko -->
+		<!-- /ko -->
+		
+		<!-- ko if: draggingSuperClassEndPoints -->
+			<!-- ko foreach: modelSelection.oneThingSelected().relationPoints() -->
+				<circle class="selectedRelationPoint" data-bind="attr:{cx:x, cy:y, r:5, id:uuid()}" fill="lightgrey" stroke="black"/>
+			<!-- /ko -->
+		<!-- /ko -->
+        
+        <!-- ko if: modelSelection.isOneThingSelected() -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityRelation" -->
+				<circle class="selectedRelationPointEndA" data-bind="attr:{cx:modelSelection.oneThingSelected().endARP().x(), cy:modelSelection.oneThingSelected().endARP().y(), r:5}" fill="red" stroke="black"/>
+				<circle class="selectedRelationPointEndB" data-bind="attr:{cx:modelSelection.oneThingSelected().endBRP().x(), cy:modelSelection.oneThingSelected().endBRP().y(), r:5}" fill="red" stroke="black"/>
+			<!-- /ko -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityClass" -->
+				<!-- ko if: modelSelection.oneThingSelected().hasSubClasses() -->
+					<circle class="selectedSuperClassTriangleRelationPoint" data-bind="attr:{cx:modelSelection.oneThingSelected().superClassTriangleRelationPoint().x(), cy:modelSelection.oneThingSelected().superClassTriangleRelationPoint().y(), r:5}" fill="red" stroke="black"/>
+				<!-- /ko -->
+			<!-- /ko -->
+		<!-- /ko -->
+        
+		
+		
+        </g>
+		</svg>
+		<span id="classDiagramPaneFiller" style="background:white;position:absolute;right:0px" data-bind="style:{left:width() + 'px', height:height() + 'px'}"></span>
+	</div>
+	<div class="pane ui-layout-south">
+		<!-- ko if: modelSelection.isOneThingSelected() -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityClass" -->
+				<h3>Properties of Class : <input data-bind="value:modelSelection.oneThingSelected().renamableName"></input></h3>
+				<p>Super class: <select data-bind="options: $root.domain.associationClassOptions, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().superClassUUID"></select></p>
+				<table class="attributes">
+				<thead>
+	            <tr>
+	                <th>Attribute Name</th>
+	                <th>Type</th>
+	                <th style="font-size:100%; font-weight:normal;"><a href="#" data-bind="click: $root.addAttributeAction.bind($data, $root.modelSelection.oneThingSelected())">add</a></th>
+	            </tr>
+	            </thead>
+	            <tbody data-bind='foreach: modelSelection.oneThingSelected().attributes'>
+	            	<tr>
+					<td><input data-bind="value:renamableName"></input></td>
+					<td><select data-bind="options: availableTypes, value: changableType"></select></td>
+					<td><a href="#" data-bind="click: $root.deleteAttributeAction.bind($data, $root.modelSelection.oneThingSelected())">delete</a></td>
+					</tr>
+				</table>
+				<p>Create a relation:<select data-bind="options: $root.domain.entityClasses, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().newRelationUUID"></select><button data-bind="click: $root.createRelationAction">Create</button></p>
+				<a href="#" data-bind="click: $root.deleteClassAction.bind($data, modelSelection.oneThingSelected())">delete</a>
+			<!-- /ko -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityRelation" -->
+				<h3>Properties of Relation : <input data-bind="value:modelSelection.oneThingSelected().renamableName"></input></h3>
+				<table class="attributes">
+					<tr>
+						<td><select data-bind="options: $root.domain.entityClasses, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().endAUUID"></select></td>
+						<td><input data-bind="value: modelSelection.oneThingSelected().verbAChangeable"/></td>
+						<td><select data-bind="options: cardinalityTypes, value: $root.modelSelection.oneThingSelected().cardinalityAChangeable"></select></td>
+						<td><span data-bind="text: $root.modelSelection.oneThingSelected().endB().name"> </span>(s)</td>
+					</tr>
+					<tr>
+						<td><select data-bind="options: $root.domain.entityClasses, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().endBUUID"></select></td>
+						<td><input data-bind="value: modelSelection.oneThingSelected().verbBChangeable"/></td>
+						<td><select data-bind="options: cardinalityTypes, value: $root.modelSelection.oneThingSelected().cardinalityBChangeable"></select></td>
+						<td><span data-bind="text: $root.modelSelection.oneThingSelected().endA().name"> </span>(s)</td>
+					</tr>
+				</table>
+				<p>Association class: <select data-bind="options: $root.domain.associationClassOptions, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().associationClassUUID"></select></p>
+				<a href="#" data-bind="click: $root.deleteRelationAction.bind($data, modelSelection.oneThingSelected())">delete</a>
+			<!-- /ko -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EntityState" -->
+				<h3>Properties of State : <input data-bind="value:modelSelection.oneThingSelected().renamableName"></input></h3>
+				<p>Create a state transition:<select data-bind="options: modelSelection.oneThingSelected().stateMachine.states, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().stateMachine.newStateToTransitionToUUID"></select><button data-bind="click: $root.createStateTransitionAction">Create</button></p>
+				<textarea data-bind="codemirror:{ lineNumbers: true, mode: 'text/x-actionlanguage', readOnly: false, tabMode: 'shift'}, value:modelSelection.oneThingSelected().procedure" style="width:95%;height:200px;padding:5px;" name="solution" id="solution"></textarea>
+			<!-- /ko -->
+			<!-- ko if: modelSelection.typeOfOneThingSelected() == "EventInstance" -->
+				<h3>Specification for transition : <select data-bind="options: modelSelection.oneThingSelected().stateMachine.specifications, optionsText: function(item) { return item.name(); }, optionsValue: function(item) { return item.uuid; }, value: $root.modelSelection.oneThingSelected().changableSpecification"></select><br/><button data-bind="click: $root.createEventSpecificationAction">Create one</button></h3>
+				<!-- ko if:modelSelection.oneThingSelected().specification().isEditable() -->
+					<h3>Properties for Specification : <input data-bind="value:modelSelection.oneThingSelected().specification().renamableName"></input></h3>
+					
+					<table class="attributes">
+					<thead>
+		            <tr>
+		                <th>Paramater Name</th>
+		                <th>Type</th>
+		                <th style="font-size:100%; font-weight:normal;"><a href="#" data-bind="click: $root.addParamAction.bind($data, $root.modelSelection.oneThingSelected().specification())">add</a></th>
+		            </tr>
+		            </thead>
+		            <tbody data-bind='foreach: modelSelection.oneThingSelected().specification().params'>
+		            	<tr>
+						<td><input data-bind="value:renamableName"></input></td>
+						<td><select data-bind="options: availableTypes, value: changableType"></select></td>
+						<td><a href="#" data-bind="click: $root.deleteParamAction.bind($data)">delete</a></td>
+						</tr>
+					</table>
+					<a href="#" data-bind="click: $root.deleteSpecAction.bind($data, modelSelection.oneThingSelected().specification())">delete specification</a>
+				<!-- /ko -->
+			<!-- /ko -->
+		<!-- /ko -->
+		<!-- ko if: modelSelection.isManyThingSelected() -->
+			Properties for multi-select is not yet implemented
+		<!-- /ko -->
+	</div>
+</div>
+<div style="position:absolute; bottom:0px;" data-bind="visible: actionList.message() != null, text: actionList.message" class="warning"> </div>
+<div id="stringBoundaryHelper"></div>
+</body>
+</html>

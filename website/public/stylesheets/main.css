@@ -1,0 +1,120 @@
+/*
+ * green : 	 #90CA77
+ * blue : #81C6DD
+ * light orange : #E9B64D
+ * orange : 	 #E48743
+ * burnt orange : 	 #9E3B33
+ */
+
+	html, body {
+		background:	#aaaaaa;
+		width:		100%;
+		height:		100%;					
+		padding:	0;
+		margin:		0;
+		overflow:	auto; /* when page gets too small */
+	}
+	#container {
+		background:	#999;
+		height:		100%;
+		margin:		0 auto;
+		width:		100%;
+		min-width:	700px;
+		_width:		700px; /* min-width for IE6 */
+	}
+	rect{
+		stroke-width:2;
+		stroke:#000000;
+	}
+	
+	.headerRight{
+		position: fixed;
+		left: 0%;
+		margin-top:0px;
+		font-size:60%;	
+		text-align:right;
+		z-index:10;
+	}
+	.ui-layout-north{
+		width:		100%;
+		height:		100%;					
+		padding:	0;
+		margin:		0;
+		background:#dddddd;
+	}
+	#logo{
+		padding-left:10px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-size:25px;
+		color: white;
+	}
+	
+	.gradient{
+		background-image: linear-gradient(bottom, rgb(30,78,161) 9%, rgb(57,110,194) 85%);
+		background-image: -o-linear-gradient(bottom, rgb(30,78,161) 9%, rgb(57,110,194) 85%);
+		background-image: -moz-linear-gradient(bottom, rgb(30,78,161) 9%, rgb(57,110,194) 85%);
+		background-image: -webkit-linear-gradient(bottom, rgb(30,78,161) 9%, rgb(57,110,194) 85%);
+		background-image: -ms-linear-gradient(bottom, rgb(30,78,161) 9%, rgb(57,110,194) 85%);
+		background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0.09, rgb(30,78,161)),
+			color-stop(0.85, rgb(57,110,194))
+		);
+	}
+	
+	.warning{
+		background:	#aa0000;
+		width:		100%;
+		padding:	0;
+		margin:		0;
+		overflow:	auto;
+		font-weight:bold;
+		text-align:center;
+		color:white;
+	}
+	
+	#unsavedActions {
+
+	}
+	
+	#undoAction {
+
+	}
+	
+	.CodeMirror {border: 1px solid #aaa;}
+	
+	table.attributes {
+		border-width: 0px;
+		border-spacing: 0px;
+		border-style: none;
+		border-color: gray;
+		border-collapse: collapse;
+		background-color: white;
+		text-align: left;
+	}
+	table.attributes th {
+		border-width: 1px;
+		padding: 1px;
+		border-style: inset;
+		border-color: gray;
+		background-color: white;
+		padding:1px 5px;
+	}
+	table.attributes td {
+		border-width: 1px;
+		padding:1px 5px;
+		border-style: inset;
+		border-color: gray;
+		background-color: white;
+	}
+	table.attributes th.empty {
+		border-width: 0px;
+	}
+	
+	.pane {
+		display:	none; /* will appear when layout inits */
+	}
+	
+	
