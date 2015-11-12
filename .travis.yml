@@ -4,14 +4,7 @@ env:
       - PLAY_VERSION=2.0.8
 
 before_deploy:
-    #    - wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip
-    #    - unzip -q play-${PLAY_VERSION}.zip
-    #    - ./play-${PLAY_VERSION}/play test
 
-after_success:
-    - gradle test
-    - gradle jar
-    - cp build/libs/avii-0.1.0.jar website/lib/
-    - ls website/lib 
+after_success: gradle test && gradle jar && cp build/libs/avii-0.1.0.jar website/lib/ && wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip && unzip -q play-${PLAY_VERSION}.zip && ./play-${PLAY_VERSION}/play test
 
 
