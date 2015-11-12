@@ -5,6 +5,6 @@ env:
 
 before_deploy:
 
-after_success: gradle test && gradle jar && cp build/libs/avii-0.1.0.jar website/lib/ && wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip && unzip -q play-${PLAY_VERSION}.zip && cd website ../play-${PLAY_VERSION}/play test
+after_success: gradle test && gradle jar && cp build/libs/avii-0.1.0.jar website/lib/ && wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip && unzip -q play-${PLAY_VERSION}.zip && cd website && ../play-${PLAY_VERSION}/play test
 
 
