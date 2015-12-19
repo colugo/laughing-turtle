@@ -1,2 +1,1 @@
-# amur-tiger
 xtUML engine
