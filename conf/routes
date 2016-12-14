@@ -3,6 +3,9 @@
 # ~~~~
 
 # Home page
+
+GET     /         controllers.Default.redirect(to = "assets/html/layout.html?projectId=big")
+
 GET     /getClassDiagram				controllers.Application.getClassDiagram(projectId: String)
 POST    /saveClassDiagramActions		controllers.Application.saveClassDiagramActions(projectId: String)
 GET		/newDomain						controllers.Application.newDomain(domainName: String)
